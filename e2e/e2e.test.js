@@ -12,9 +12,9 @@ describe('Credit Card Validator form', () => {
 
   beforeEach(async () => {
     browser = await puppeteer.launch({
-      headless: false,
-      slowMo: 50,
-      devtools: true,
+      headless: true,
+      // slowMo: 50,
+      // devtools: true,
     });
 
     page = await browser.newPage();

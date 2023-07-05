@@ -7,7 +7,7 @@
     "coverage": "start-server-and-test 'yarn start' http://localhost:9000 'jest --coverage'",
     "lint": "eslint .",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development",
+    "start": "npx kill-port 9000 && webpack-dev-server --mode development",
     "e2e": "jest --testPathPattern=./e2e/ --runInBand",
     "ci": "start-server-and-test 'yarn start' http://localhost:9000 'yarn e2e'"
   },

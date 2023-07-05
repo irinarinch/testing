@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --testPathPattern=./__tests__/ --runInBand",
     "coverage": "jest --coverage",
     "lint": "eslint .",
     "build": "webpack --mode production",

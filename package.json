@@ -43,5 +43,7 @@
   },
   "jest": {
     "testEnvironment": "jsdom"
-  }
+  },
+  "repository": "git@github.com:irinarinch/testing.git",
+  "author": "irinarinch <you@example.com>"
 }
